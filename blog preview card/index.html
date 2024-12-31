@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+      @font-face {
+      font-family: 'Figtree';
+      src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+      font-weight: 800; /* Extra Bold */
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Figtree';
+      src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+      font-weight: 600; /* Semi Bold */
+      font-style: normal;
+    }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Figtree';
+      font-size: 14px;
+    }
+    p{
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      background-color: hsl(0, 0%, 100%);
+      width: 384px;
+      height: 522px;
+      margin: 0;
+      padding: 3%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 4%;
+      border: 1.5px solid black;
+      box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.9);
+    }
+
+    img{
+      width: 100%;
+      object-fit: cover;
+      border-radius: 4%;
+    }
+
+    .content, .author{
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .genre{
+      margin-bottom: 14px;
+      font-weight:bold;
+      background-color: #f4d04e;
+      width: fit-content;
+      padding: 8px;
+      padding-left: 13px;
+      padding-right: 13px;
+      border-radius: 10%;
+    }
+    .datetime{
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: hsl(0, 0%, 7%);
+    }
+    .topic{
+      font-size: 24px;
+      margin-bottom: 25px;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+    .topic-content:hover{
+      color: #f4d04e;
+    }
+    .description{
+      font-size: 16px;
+      font-weight: 600;
+      color: hsl(0, 0%, 42%);
+    }
+
+    .author{
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+    .author-avatar{
+      height: 32px;
+      width: 32px;
+      object-fit: cover;
+    }
+    .author-name{
+      padding-bottom: 7px;
+      padding-left: 13px;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <main class="container">
+    <img src="./assets/images/illustration-article.svg" alt="illustration">
+    <div class="content">
+
+      <div class="genre">
+        <p class="genre-content">Learning</p>
+      </div>
+      <div class="datetime">
+        <p class="datetime-content">Published 21 Dec 2023</p>
+      </div>
+      <div class="topic">
+        <p class="topic-content">HTML & CSS foundations</p>
+      </div>
+      <div class="description">
+        <p class="description-content">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+
+    </div>
+    <div class="author">
+      <img src="assets/images/image-avatar.webp" alt="author picture" class="author-avatar">
+      <p class="author-name">Greg Hooper</p>
+    </div>
+  </main>
+
+</body>
+</html>
