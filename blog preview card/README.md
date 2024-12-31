@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot.png)
+![]([./assets/images/screenshot.png](https://github.com/Halder16/Frontendmentor/blob/f68a3ffaedc2a8faea903c3d5c0bff261877bea8/blog%20preview%20card/assets/images/screenshot.png))
 
 ### Links
 
