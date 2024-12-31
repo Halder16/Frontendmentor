@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/Halder16/Frontendmentor/tree/main/blog%20preview%20card)
-- Live Site URL: [live site]([/](https://halder16.github.io/Frontendmentor/blog%20preview%20card/))
+- Live Site URL: [live site](https://halder16.github.io/Frontendmentor/blog%20preview%20card/)
 
 ## My process
 
