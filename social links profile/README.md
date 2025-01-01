@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](...)
-- Live Site URL: [live site](...)
+- Solution URL: [solution](https://github.com/Halder16/Frontendmentor/tree/main/social%20links%20profile)
+- Live Site URL: [live site](https://halder16.github.io/Frontendmentor/social%20links%20profile/)
 
 ## My process
 
